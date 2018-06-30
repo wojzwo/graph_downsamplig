@@ -33,17 +33,23 @@ for i in range(1,11):
 	[b, a] = ss.butter(1, [i*49.0/(Fs/2), i*51.0/(Fs/2)], btype = 'bandstop')
 	dataPmt_filt = ss.filtfilt(b, a, dataPmt_filt)
 
+dataPmt_low = dataPmt_filt
+[b2,a2] = ss.butter(1, 20/(Fs/2), btype = 'lowpass')
+dataPmt_low = ss.filtfilt(b2, a2, dataPmt_filt)
+dataPmt_filt -= dataPmt_low
 
-widmoMocy, freq = widmo_dB(dataPmt_filt, len(dataPmt_filt), Fs)
 
-print(len(t))
-print(len(dataPmt))
-print(len(freq))
-print(len(widmoMocy))
+#widmoMocy, freq = widmo_dB(dataPmt_filt, len(dataPmt_filt), Fs)
+
+#print(len(t))
+#print(len(dataPmt))
+#print(len(freq))
+#print(len(widmoMocy))
 
 fig,ax = plt.subplots()
+ax.plot(t,dataPmt)
 ax.plot(t,dataPmt_filt)
 ax.set_title(args.file)
 plt.show()
-plt.plot(freq, widmoMocy)
-plt.show()
+#plt.plot(freq, widmoMocy)
+#plt.show()
