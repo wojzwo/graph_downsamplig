@@ -19,3 +19,13 @@ Uruchamianie z parametrem ścieżki do pliku do przerobienia:
 downsampling.py "sciezka do pliku .mat"
 
 Dlugość sygnału zwykle redukowana była do 30 000 punktów z 45 000 000 czyli ponad 1400 krotnie.
+
+
+Przyklady działania:
+
+Sygnał wejściowy:
+![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/zdarzenie_bezniczego.png)
+
+![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/zdarzenie1.png)
+
+![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/zdarzenie2.png)
