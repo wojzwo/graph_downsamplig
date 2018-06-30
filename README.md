@@ -35,3 +35,7 @@ Sygnał z diod podpisujący klatkę kamery:
 ![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/dioda1.png)
 
 ![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/dioda2.png)
+
+Ten sam fragment sygnału w większej skali:
+
+![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/dioda3.png)
