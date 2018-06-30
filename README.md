@@ -6,7 +6,7 @@ Zaimplementowane jest kilka metod filtrowania sygnału których parametry można
 -Filtrowanie zakłóceń sieciowych - częstotliwości ~50Hz i wyższych harmonicznych
 -Filtr górnoprzepustowy z regulowanym odcięciem (domyślnie 4kHz)
 -Matched filter - filtr opierajacy sie na cross-korelacji ze wzorem - domyslnie gauss o szerokości połówkowej 3.7 bina czasowego - 
-dobrany dla zwiększenia Signal-Noise-Ratio dla impulsów znacznikowych diod. Sygnały zdarzeń są bardzo dobrze widoczne nad szumem a taki wzór sygnału ich nie osłabia.
+dobrany dla zwiększenia Signal-Noise-Ratio dla impulsów znacznikowych diod. Sygnały zdarzeń są bardzo dobrze widoczne nad szumem a taki wzór ich nie osłabia.
 
 Następnie przeprowadzamy rozpoznawanie zdarzeń z progiem th=-50.
 
