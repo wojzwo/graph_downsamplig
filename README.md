@@ -18,3 +18,4 @@ Downsampling przeprowadzany jest zarówno na sygnale raw jak i przefiltrowanym m
 Uruchamianie z parametrem ścieżki do pliku do przerobienia:
 downsampling.py "sciezka do pliku .mat"
 
+Dlugość sygnału zwykle redukowana była do 30 000 punktów z 45 000 000 czyli ponad 1400 krotnie.
