@@ -23,9 +23,15 @@ Dlugość sygnału zwykle redukowana była do 30 000 punktów z 45 000 000 czyli
 
 Przyklady działania:
 
-Sygnał wejściowy:
+Detekjcja cząsteki:
 ![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/zdarzenie_bezniczego.png)
 
 ![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/zdarzenie1.png)
 
 ![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/zdarzenie2.png)
+
+Sygnał z diod podpisujący klatkę kamery:
+
+![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/dioda1.png)
+
+![alt text](https://github.com/wojzwo/graph_downsamplig/blob/master/dioda2.png)
